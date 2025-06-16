@@ -2,6 +2,6 @@ from abc import ABC, abstractmethod
 
 from resources.domain.models import Resource
 
-class ResourcesRepository(ABC):
+class ResourceRepository(ABC):
     @abstractmethod
     def get(self) -> Resource: ...
