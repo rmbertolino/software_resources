@@ -1,8 +1,9 @@
 # software_resources
 Vertical Slice + Clean Architecture
 
-## server
+## Uso y Ejecución
+### Para levantar el servidor:
 fastapi dev main.py
 
-## tests
+#### Para correr tests:
 python -m pytest
